@@ -15,7 +15,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_clinica")
-public class Clinica implements Serializable{ //necessario para manter a persistencia da sessao http
+public class Clinica implements Serializable{ 
 	
 	private static final long serialVersionUID = 1L;
 	
